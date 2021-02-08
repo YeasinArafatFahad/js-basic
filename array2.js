@@ -1,0 +1,10 @@
+var teaLine=['kalam','Salam','Balam'];
+teaLine.push('Jalal')
+console.log(teaLine)
+teaLine.pop()
+console.log(teaLine)
+teaLine.unshift('Alal','Dulal','Lalal')
+console.log(teaLine)
+var part=teaLine.slice(2, 5)
+console.log(part)
+console.log(teaLine)
