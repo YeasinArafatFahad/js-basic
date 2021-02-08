@@ -1,22 +1,24 @@
+//https://github.com/YeasinArafatFahad/Assignment-3/blob/main/assignment.js
+
 //Number-1
 
 function kilometerToMeter(kilometer){
     if(kilometer >= 0){
-        var meter = kilometer*1000;
+        var meter = kilometer * 1000;
     }
     else{
-        return 'distance cannot be negative'
+        return 'distance cannot be negative';
     }
     return meter;
 }
-
+console.log(kilometerToMeter(-1))
 
 //Number-2
+
 function budgetCalculator(watch, phone, leptop){
     var total = (watch * 50) + (phone * 100) + (leptop * 500);
     return total;
 }
-
 
 
 //Number-3
@@ -43,6 +45,7 @@ function hotelCost(days){
 }  
 
 
+
 //Number-4
 
 function megaFriend(name){
@@ -55,3 +58,4 @@ function megaFriend(name){
     }
     return longName;
 }
+
